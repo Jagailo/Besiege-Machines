@@ -22,3 +22,8 @@ zone 7:
     rev 1 -> rev 2
         [Eng]: Compact design. Removed all unnecessary.
         [Rus]: Компактный дизайн. Убрано всё лишнее.
+
+zone 8:
+    rev 1 -> rev 2
+        [Eng]: Compact design. Removed all unnecessary.
+        [Rus]: Компактный дизайн. Убрано всё лишнее.
