@@ -1,0 +1,8 @@
+--- [ENG] ------
+
+    Don't use the pistons in this machine (H button).
+
+
+--- [RUS] ------
+
+    Не используйте поршни в этой машине (Кнопка H).

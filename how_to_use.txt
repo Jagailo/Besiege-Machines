@@ -1,0 +1,13 @@
+--- ENG ------
+
+    1. Go to the directory: "{SteamLibrary}\steamapps\common\Besiege\Besiege_Data\SavedMachines\".
+    2. Copy the files (.bsg) of the machines you need to this directory.
+
+    P.S. There will be no thumbnails - this is normal.
+
+--- RUS ------
+
+    1. Перейдите в директорию: "{SteamLibrary}\steamapps\common\Besiege\Besiege_Data\SavedMachines\".
+    2. Скопируйте файлы (.bsg) нужных вам машин в эту директорию.
+
+    P.S. Иконок машин не будет - это нормально.
