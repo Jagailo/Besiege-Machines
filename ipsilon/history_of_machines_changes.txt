@@ -37,3 +37,8 @@ zone 11:
     rev 1 -> rev 2
         [Eng]: Compact design. Removed all unnecessary.
         [Rus]: Компактный дизайн. Убрано всё лишнее.
+
+zone 14:
+    rev 1 -> rev 2
+        [Eng]: The steering system is changed in favor of better maneuverability. Protection improved.
+        [Rus]: Рулевая система изменена в пользу лучшей маневренности. Защита улучшена.
