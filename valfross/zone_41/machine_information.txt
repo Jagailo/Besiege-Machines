@@ -1,0 +1,47 @@
+--- [ENG] ------
+
+    Machine control:
+    - Up Arrow: go forward
+    - Down Arrow: go back
+
+    - NumPad 8: fly forward
+    - NumPad 2: fly back
+    - NumPad 6: turn right
+    - NumPad 4: turn left
+
+    - Left Shift: fully fly up
+    - Left Ctrl: fully fly down
+
+    - NumPad 7: raise the top-left (northwest) corner
+    - NumPad 9: raise the top-right (northeast) corner
+    - NumPad 1: raise the bottom-left (southwest) corner
+    - NumPad 3: raise the bottom-right (southeast) corner
+
+    - Q: lower the top-left (northwest) corner
+    - E: lower the top-right (northeast) corner
+    - Z: lower the bottom-left (southwest) corner
+    - C: lower the bottom-right (southeast) corner
+
+--- [RUS] ------
+
+    Управление машиной:
+    - Стрелка вверх: ехать вперёд
+    - Стрелка вниз: ехать назад
+
+    - NumPad 8: лететь вперёд
+    - NumPad 2: лететь назад
+    - NumPad 6: повернуть вправо
+    - NumPad 4: повернуть влево
+
+    - Левый Shift: полностью лететь вверх
+    - Левый Ctrl: полностью лететь вниз
+
+    - NumPad 7: поднять вверх левый верхний (северо-запад) угол
+    - NumPad 9: поднять вверх правый верхний (северо-восток) угол
+    - NumPad 1: поднять вверх левый нижний (юго-запад) угол
+    - NumPad 3: поднять вверх правый нижний (юго-восток) угол
+
+    - Q: опустить вниз левый верхний (северо-запад) угол
+    - E: опустить вниз правый верхний (северо-восток) угол
+    - Z: опустить вниз левый нижний (юго-запад) угол
+    - C: опустить вниз правый нижний (юго-восток) угол
