@@ -1,3 +1,8 @@
+zone 1:
+    rev 1 -> rev 2
+        [Eng]: Compact design. Removed all unnecessary.
+        [Rus]: Компактный дизайн. Убрано всё лишнее.
+
 zone 3:
     rev 1 -> rev 2
         [Eng]: Compact form of the machine. Controllability of the machine is improved.
