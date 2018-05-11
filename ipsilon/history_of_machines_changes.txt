@@ -2,3 +2,8 @@ zone 3:
     rev 1 -> rev 2
         [Eng]: Compact form of the machine. Controllability of the machine is improved.
         [Rus]: Компактный вид машины, управляемость улучшена.
+
+zone 5:
+    rev 1 -> rev 2
+        [Eng]: Completely redesigned machine, but because of the principle (now it is not a swastika). Improved machine protection.
+        [Rus]: Полностью переделана машина, но потому же принципу (теперь это не свастика). Улучшена защита машины. 
