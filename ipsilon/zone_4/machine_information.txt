@@ -1,0 +1,7 @@
+--- [ENG] ------
+
+    As soon as you press Play, shoot a cannon (Button C).
+
+--- [RUS] ------
+
+    Как только нажмёте Play выстрелите из пушки (Кнопка C).
