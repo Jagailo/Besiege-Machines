@@ -45,5 +45,5 @@ zone 14:
 
 zone 15:
     rev 1 -> rev 2
-        [Eng]: Catapult is greatly simplified. The frame is raised higher for safety.
-        [Rus]: Катапульта значительно упрощена. Каркас поднять повыше для безопасности.
+        [Eng]: Catapult is greatly simplified. The frame is raised for safety.
+        [Rus]: Катапульта значительно упрощена. Каркас поднят для безопасности.
