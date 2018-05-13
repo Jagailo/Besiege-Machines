@@ -2,3 +2,8 @@ zone 20:
     rev 1 -> rev 2 (I'm not sure which version is better / Не уверен какая версия лучше)
         [Eng]: The steering is redone, the protection is removed.
         [Rus]: Переделано рулевое управление, снята защита.
+
+zone 23:
+    rev 1 -> rev 2
+        [Eng]: The machine is much simplified. The principle of work is the same.
+        [Rus]: Машина значительно упрощена. Принцип работы тот же.
