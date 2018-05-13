@@ -2,3 +2,8 @@ zone 38:
     rev 1 -> rev 2
         [Eng]: Replaced the block of wood on the piston under the central wheel. Minor changes in the system of braces.
         [Rus]: Заменён блок дерева на поршень под центральным колесом. Небольшие изменения в системе распорок.
+
+zone 39:
+    rev 1 -> rev 2
+        [Eng]: The machine is a little simplified to improve ease of use. The principle of work is the same.
+        [Rus]: Машина немного упрощена для повышения удобства в использовании. Принцип работы тот же.
