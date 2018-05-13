@@ -1,0 +1,9 @@
+--- [ENG] ------
+
+    The version of the machine from the video does not work, so rev 1 does not match what is shown on the video.
+    For rev 2, just hold the ArrowUp.
+
+--- [RUS] ------
+
+    Версия машины из видео не работает, поэтому rev 1 не совпадает с тем, что показана на видео.
+    Для rev 2 просто зажмите стрелку вперёд.

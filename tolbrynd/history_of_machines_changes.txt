@@ -7,3 +7,8 @@ zone 23:
     rev 1 -> rev 2
         [Eng]: The machine is much simplified. The principle of work is the same.
         [Rus]: Машина значительно упрощена. Принцип работы тот же.
+        
+zone 23:
+    rev 1 -> rev 2
+        [Eng]: The machine is much simplified. The principle of work is the same.
+        [Rus]: Машина значительно упрощена. Принцип работы тот же.
