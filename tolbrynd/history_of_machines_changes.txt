@@ -7,8 +7,17 @@ zone 23:
     rev 1 -> rev 2
         [Eng]: The machine is much simplified. The principle of work is the same.
         [Rus]: Машина значительно упрощена. Принцип работы тот же.
-        
+
 zone 26:
     rev 1 -> rev 2
         [Eng]: The machine is much simplified. The principle of work is the same.
         [Rus]: Машина значительно упрощена. Принцип работы тот же.
+
+zone 28:
+    rev 1 -> rev 2
+        [Eng]: The machine is much simplified. Now the car is at the top in safety.
+        [Rus]: Машина значительно упрощена. Теперь машина находится вверху в безопасности.
+
+    rev 2 -> rev 3
+        [Eng]: The machine is explosion-proof and now it stands on the ground.
+        [Rus]: Машина взрывоустоичива и теперь она стоит на земле.
