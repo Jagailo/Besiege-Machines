@@ -1,0 +1,33 @@
+--- [ENG] ------
+
+    Machine control:
+    - Up arrow: move forward
+    - Right arrow: move right
+    - Down arrow: move back
+    - Left arrow: move left
+
+    - Q: go down
+    - E: go up
+
+    - 1: drop the 1st bomb
+    - 2: drop the 2nd bomb
+    - 3: drop the 3rd bomb
+    - 4: drop the 4th bomb
+    - 5: drop the 5th bomb
+
+--- [RUS] ------
+
+    Управление машиной:
+    - Стрелка вверх: перемещаться вперёд
+    - Стрелка вправо: перемещаться вправо
+    - Стрелка вниз: перемещаться назад
+    - Стрелка влево: перемещаться влево
+
+    - Q: опуститься
+    - E: подняться
+
+    - 1: сбросить 1-ую бомбу
+    - 2: сбросить 2-ую бомбу
+    - 3: сбросить 3-ью бомбу
+    - 4: сбросить 4-ую бомбу
+    - 5: сбросить 5-ую бомбу
