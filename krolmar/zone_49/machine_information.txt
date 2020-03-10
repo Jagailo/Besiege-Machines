@@ -1,0 +1,17 @@
+--- [ENG] ------
+
+    Machine control:
+    - Numpad 2 - Numpad 8: first steering
+    - Numpad 1 - Numpad 7: second steering
+    - Numpad 3 - Numpad 9: third steering
+
+    - H: extend the pistons
+
+--- [RUS] ------
+
+    Управление машиной:
+    - Numpad 2 - Numpad 8: управление первым рулевым управлением
+    - Numpad 1 - Numpad 7: управление вторым рулевым управлением
+    - Numpad 3 - Numpad 9: управление третьим рулевым управлением
+
+    - H: выдвинуть поршни

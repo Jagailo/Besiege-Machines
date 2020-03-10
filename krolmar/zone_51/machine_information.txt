@@ -1,0 +1,15 @@
+--- [ENG] ------
+
+    Machine control:
+    - Numpad 2: grap up
+    - Numpad 8: grap down
+
+    - H: extend the piston
+
+--- [RUS] ------
+
+    Управление машиной:
+    - Numpad 2: поднять захват
+    - Numpad 8: опыстить захват
+
+    - H: выдвинуть поршень
