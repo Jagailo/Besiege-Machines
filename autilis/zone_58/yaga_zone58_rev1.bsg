@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="yaga_zone58_rev1">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0.7252982" y="6.741432" z="6.893746" />
+        <Rotation x="-1.408592E-15" y="0.0434234" z="-1.414913E-08" w="0.9990568" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods" />
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="7020118f-e629-4e93-b28c-d3834937a0c2">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="14" guid="01ae9a14-49bf-4944-a95b-23836a003b2e">
+            <Transform>
+                <Position x="0" y="0" z="0.5" />
+                <Rotation x="0" y="0" z="0.7071068" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-spin">O</StringArray>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-toggle-mode">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Single key="bmt-speed">1</Single>
+            </Data>
+        </Block>
+        <Block id="27" guid="c98b8744-d150-4c38-ab23-c9ca1f7354ab">
+            <Transform>
+                <Position x="0" y="-0.5" z="0" />
+                <Rotation x="0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-attach">V</StringArray>
+                <StringArray key="bmt-detach">V</StringArray>
+                <Boolean key="bmt-grab-static">False</Boolean>
+                <Boolean key="bmt-grab-static-only">False</Boolean>
+                <Boolean key="bmt-auto-grab">True</Boolean>
+                <Boolean key="bmt-flexible">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="23" guid="083b4d96-d7be-41ca-8538-52fabc547364">
+            <Transform>
+                <Position x="2.980232E-08" y="-1.5" z="1.490116E-08" />
+                <Rotation x="0.7071067" y="2.107342E-08" z="2.107343E-08" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="74" guid="665b564f-708c-4c02-82d4-ac797ffa01cf">
+            <Transform>
+                <Position x="0" y="0.5" z="0" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-rise">U</StringArray>
+                <StringArray key="bmt-drop">J</StringArray>
+                <Boolean key="bmt-ASP">True</Boolean>
+                <Single key="bmt-height">7.05</Single>
+                <Single key="bmt-buoyancy">1</Single>
+                <Color key="bmt-colour">
+                    <R>1</R>
+                    <G>0.9098039</G>
+                    <B>0.7568628</B>
+                </Color>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>
