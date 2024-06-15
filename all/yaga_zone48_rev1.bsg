@@ -155,10 +155,12 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <StringArray key="bmt-attach">Alpha1</StringArray>
                 <StringArray key="bmt-detach">Alpha1</StringArray>
                 <Boolean key="bmt-grab-static">False</Boolean>
                 <Boolean key="bmt-grab-static-only">False</Boolean>
                 <Boolean key="bmt-auto-grab">True</Boolean>
+                <Boolean key="bmt-flexible">False</Boolean>
             </Data>
         </Block>
         <Block id="27" guid="a1a8051e-a6ad-42f9-a1f7-ba173cbd811a">
@@ -168,10 +170,12 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <StringArray key="bmt-attach">Alpha2</StringArray>
                 <StringArray key="bmt-detach">Alpha2</StringArray>
                 <Boolean key="bmt-grab-static">False</Boolean>
                 <Boolean key="bmt-grab-static-only">False</Boolean>
                 <Boolean key="bmt-auto-grab">True</Boolean>
+                <Boolean key="bmt-flexible">False</Boolean>
             </Data>
         </Block>
         <Block id="27" guid="db34d48d-5a64-412e-81a2-a75753474a8f">
@@ -181,10 +185,12 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <StringArray key="bmt-attach">Alpha4</StringArray>
                 <StringArray key="bmt-detach">Alpha4</StringArray>
                 <Boolean key="bmt-grab-static">False</Boolean>
                 <Boolean key="bmt-grab-static-only">False</Boolean>
                 <Boolean key="bmt-auto-grab">True</Boolean>
+                <Boolean key="bmt-flexible">False</Boolean>
             </Data>
         </Block>
         <Block id="27" guid="f1ff5684-6d27-4a1a-8b78-17bb489be938">
@@ -194,10 +200,12 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <StringArray key="bmt-attach">Alpha3</StringArray>
                 <StringArray key="bmt-detach">Alpha3</StringArray>
                 <Boolean key="bmt-grab-static">False</Boolean>
                 <Boolean key="bmt-grab-static-only">False</Boolean>
                 <Boolean key="bmt-auto-grab">True</Boolean>
+                <Boolean key="bmt-flexible">False</Boolean>
             </Data>
         </Block>
         <Block id="23" guid="f93a45cb-40f1-418a-b828-dee5736605fd">
@@ -434,6 +442,7 @@
                 <StringArray key="bmt-activate-B">Z</StringArray>
                 <Integer key="bmt-Gate">3</Integer>
                 <Boolean key="bmt-toggle-mode">False</Boolean>
+                <Boolean key="bmt-inverted">True</Boolean>
                 <StringArray key="bmt-emulate">E</StringArray>
             </Data>
         </Block>
@@ -444,8 +453,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="f081363a-9f2b-4106-9b6c-8af98f6f5996">
@@ -455,8 +465,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="bbaea72e-7f30-41b9-b23f-9448fff946b2">
@@ -466,8 +477,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="160d23f8-ed17-46bf-8db4-a53391a9a278">
@@ -477,8 +489,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="70" guid="e107a0e0-50a3-4f2d-91ef-543e843e6092">
@@ -493,7 +506,7 @@
                 <Boolean key="bmt-non-automatic">False</Boolean>
                 <Boolean key="bmt-hold-to-activate">True</Boolean>
                 <Boolean key="bmt-reverse">False</Boolean>
-                <Single key="bmt-speed">5</Single>
+                <Single key="bmt-speed-threshold">5</Single>
             </Data>
         </Block>
         <Block id="34" guid="5bc499d9-3d4d-4b57-920b-520e6924c65c">
@@ -527,8 +540,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="3f4ed90e-0041-4ef1-9812-07718f8ed962">
@@ -538,8 +552,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="f4bffcf1-cb8f-4693-bfbf-12f0ce4d5abd">
@@ -549,8 +564,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="91f653b5-ae60-4da5-8d9d-9d5515e80824">
@@ -560,8 +576,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="380bf27d-00e7-42da-9be3-7bafaa6f7173">
@@ -571,8 +588,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="2ea0f03e-aacb-454f-a3ef-73c6d7528306">
@@ -582,8 +600,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="8ab3fe91-47c8-4d76-b439-bace7ae96248">
@@ -593,8 +612,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="3e9cba17-b74f-4aa8-a281-e6a136173ea2">
@@ -604,8 +624,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="cc207002-b933-408b-b5ad-4d003734f281">
@@ -615,8 +636,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="53f0efaa-c115-459e-a998-5356c08f960c">
@@ -626,8 +648,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="afaac353-d24d-46f5-885b-2a32161310d7">
@@ -637,8 +660,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="3ddc7c61-43e1-4cd0-9022-7b17b3b64a44">
@@ -648,8 +672,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="34" guid="d67a1b1c-2f8e-4226-b1cc-84352d0e4533">
@@ -667,8 +692,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="9ff37ad9-c4e2-4597-8c80-8da343c06703">
@@ -678,8 +704,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="c17dddbe-bdf5-402c-b57d-d38a8914df37">
@@ -689,8 +716,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="70c8c74c-db73-4790-932b-2ba738aef182">
@@ -700,8 +728,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="43" guid="98b27951-b1ea-4eed-b27e-5da0492196c9">
@@ -711,8 +740,9 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-string-length">2</Single>
                 <Single key="bmt-buoyancy">1</Single>
+                <Single key="bmt-height">Infinity</Single>
+                <Single key="bmt-string-length">2</Single>
             </Data>
         </Block>
         <Block id="14" guid="6db18611-575f-4efa-966d-70515fbaf626">
@@ -778,15 +808,17 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
+                <Single key="bmt-speed">1</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="bmt-automatic">True</Boolean>
                 <Boolean key="bmt-toggle-mode">False</Boolean>
                 <Boolean key="bmt-auto-brake">True</Boolean>
                 <StringArray key="bmt-forward">None</StringArray>
                 <StringArray key="bmt-backward">None</StringArray>
-                <Single key="bmt-speed">1</Single>
-                <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-opt-collider">False</Boolean>
+                <Single key="bmt-contact">0.1</Single>
                 <Boolean key="flipped">True</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="2" guid="629a322c-e195-4ea8-a5f6-c6ecf0208c4d">
@@ -796,15 +828,17 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
+                <Single key="bmt-speed">1</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="bmt-automatic">True</Boolean>
                 <Boolean key="bmt-toggle-mode">False</Boolean>
                 <Boolean key="bmt-auto-brake">True</Boolean>
                 <StringArray key="bmt-forward">None</StringArray>
                 <StringArray key="bmt-backward">None</StringArray>
-                <Single key="bmt-speed">1</Single>
-                <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-opt-collider">False</Boolean>
+                <Single key="bmt-contact">0.1</Single>
                 <Boolean key="flipped">False</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="23" guid="6e09a1d9-b0a8-4d6e-ae7a-472e84aed51a">
@@ -827,7 +861,7 @@
                 <Boolean key="bmt-non-automatic">False</Boolean>
                 <Boolean key="bmt-hold-to-activate">True</Boolean>
                 <Boolean key="bmt-reverse">False</Boolean>
-                <Single key="bmt-speed">5</Single>
+                <Single key="bmt-speed-threshold">5</Single>
             </Data>
         </Block>
         <Block id="35" guid="3645aae5-6d04-43b2-8c9e-55361c29ef90">
@@ -887,10 +921,12 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <StringArray key="bmt-attach">Alpha5</StringArray>
                 <StringArray key="bmt-detach">Alpha5</StringArray>
                 <Boolean key="bmt-grab-static">False</Boolean>
                 <Boolean key="bmt-grab-static-only">False</Boolean>
                 <Boolean key="bmt-auto-grab">True</Boolean>
+                <Boolean key="bmt-flexible">False</Boolean>
             </Data>
         </Block>
         <Block id="23" guid="ac5e1edd-7ce6-41c9-8cac-257d4272583b">

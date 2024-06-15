@@ -7,7 +7,9 @@
         <Rotation x="0" y="0.06540496" z="0" w="0.9978588" />
     </Global>
     <!--The machine's additional data or modded data.-->
-    <Data />
+    <Data>
+        <StringArray key="requiredMods" />
+    </Data>
     <!--The machine's blocks.-->
     <Blocks>
         <Block id="0" guid="f05f1ef9-23d0-48a3-8df7-1cd48ca34855">
@@ -25,6 +27,7 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Integer key="length">2</Integer>
             </Data>
         </Block>
@@ -35,6 +38,7 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Integer key="length">2</Integer>
             </Data>
         </Block>
@@ -45,6 +49,7 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Integer key="length">2</Integer>
             </Data>
         </Block>
@@ -55,6 +60,7 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Integer key="length">2</Integer>
             </Data>
         </Block>
@@ -65,6 +71,7 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Integer key="length">2</Integer>
             </Data>
         </Block>
@@ -75,6 +82,7 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Integer key="length">2</Integer>
             </Data>
         </Block>
@@ -85,6 +93,7 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Integer key="length">2</Integer>
             </Data>
         </Block>
@@ -95,6 +104,7 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Integer key="length">2</Integer>
             </Data>
         </Block>
@@ -108,6 +118,8 @@
                 <StringArray key="bmt-left">UpArrow</StringArray>
                 <StringArray key="bmt-right">DownArrow</StringArray>
                 <Single key="bmt-rotation-speed">1</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>40</Single>
@@ -126,6 +138,8 @@
                 <StringArray key="bmt-left">RightArrow</StringArray>
                 <StringArray key="bmt-right">LeftArrow</StringArray>
                 <Single key="bmt-rotation-speed">1</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>40</Single>
@@ -352,15 +366,15 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
-                <Vector3 key="start-rotation">
-                    <X>90</X>
-                    <Y>277.5002</Y>
-                    <Z>0</Z>
-                </Vector3>
                 <Vector3 key="end-position">
                     <X>-4.000002</X>
                     <Y>-2.000002</Y>
                     <Z>4.768372E-07</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>90</X>
+                    <Y>277.5002</Y>
+                    <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>90</X>
@@ -381,15 +395,15 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
-                <Vector3 key="start-rotation">
-                    <X>90</X>
-                    <Y>277.5002</Y>
-                    <Z>0</Z>
-                </Vector3>
                 <Vector3 key="end-position">
                     <X>-4.000001</X>
                     <Y>2</Y>
                     <Z>4.768372E-07</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>90</X>
+                    <Y>277.5002</Y>
+                    <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>90</X>
@@ -410,15 +424,15 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
+                <Vector3 key="end-position">
+                    <X>-1.907349E-06</X>
+                    <Y>-4.000003</Y>
+                    <Z>-4.768372E-07</Z>
+                </Vector3>
                 <Vector3 key="start-rotation">
                     <X>90</X>
                     <Y>277.5002</Y>
                     <Z>0</Z>
-                </Vector3>
-                <Vector3 key="end-position">
-                    <X>-1.430511E-06</X>
-                    <Y>-4.000003</Y>
-                    <Z>-4.768372E-07</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>90</X>

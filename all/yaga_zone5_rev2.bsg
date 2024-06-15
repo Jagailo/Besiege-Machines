@@ -7,7 +7,9 @@
         <Rotation x="0" y="0" z="0" w="1" />
     </Global>
     <!--The machine's additional data or modded data.-->
-    <Data />
+    <Data>
+        <StringArray key="requiredMods" />
+    </Data>
     <!--The machine's blocks.-->
     <Blocks>
         <Block id="0" guid="324a86d5-e54a-4490-84db-76428a7529dc">
@@ -28,7 +30,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="b3544de8-765c-4238-9d2b-05611337ee47">
@@ -41,7 +45,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="8b9497e5-46b0-4fd1-8b29-f6a4087943b2">
@@ -54,7 +60,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="372da991-9ba1-460e-9f7a-156fb612ab5c">
@@ -67,7 +75,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="892bd9ae-c897-472f-9eef-3709677da74b">
@@ -80,7 +90,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="d0754637-6cde-4429-b9ba-9743f6c80523">
@@ -93,7 +105,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="e2c03484-e841-4cc2-a482-ad226b78b08b">
@@ -106,7 +120,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="fcd8310c-a7cb-491c-851d-d9f894bee3e9">
@@ -119,7 +135,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="51" guid="3ad2ed82-e5ac-49ca-ae60-1734b233483e">
@@ -152,7 +170,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="d9754ed7-36ed-4d3c-b137-7cdbc6593c66">
@@ -165,7 +185,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="39" guid="9bd41bde-2d8e-423c-8ba6-32ec3e6605d4">
@@ -175,15 +197,15 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
+                <Single key="bmt-speed">1</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="bmt-automatic">False</Boolean>
                 <Boolean key="bmt-toggle-mode">False</Boolean>
                 <Boolean key="bmt-auto-brake">True</Boolean>
                 <StringArray key="bmt-forward">UpArrow</StringArray>
                 <StringArray key="bmt-backward">DownArrow</StringArray>
-                <Single key="bmt-speed">1</Single>
-                <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">True</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="39" guid="8961fa63-0662-43c5-890b-cf5d957314a5">
@@ -193,15 +215,15 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
+                <Single key="bmt-speed">1</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="bmt-automatic">False</Boolean>
                 <Boolean key="bmt-toggle-mode">False</Boolean>
                 <Boolean key="bmt-auto-brake">True</Boolean>
                 <StringArray key="bmt-forward">UpArrow</StringArray>
                 <StringArray key="bmt-backward">DownArrow</StringArray>
-                <Single key="bmt-speed">1</Single>
-                <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">False</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="7" guid="f8110816-e6f3-4664-8e6b-a460c1c89500">
@@ -216,20 +238,20 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
-                <Vector3 key="start-rotation">
-                    <X>-6.830188E-06</X>
-                    <Y>180</Y>
-                    <Z>4.071109E-13</Z>
-                </Vector3>
                 <Vector3 key="end-position">
                     <X>2.384186E-07</X>
                     <Y>-1</Y>
                     <Z>-1.192093E-07</Z>
                 </Vector3>
-                <Vector3 key="end-rotation">
-                    <X>-9.099637E-20</X>
+                <Vector3 key="start-rotation">
+                    <X>-6.830188E-06</X>
                     <Y>180</Y>
-                    <Z>4.85314E-20</Z>
+                    <Z>4.071109E-13</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>-8.493802E-21</X>
+                    <Y>180</Y>
+                    <Z>4.853141E-20</Z>
                 </Vector3>
             </Data>
         </Block>
@@ -245,20 +267,20 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
-                <Vector3 key="start-rotation">
-                    <X>-6.830188E-06</X>
-                    <Y>180</Y>
-                    <Z>-4.071109E-13</Z>
-                </Vector3>
                 <Vector3 key="end-position">
                     <X>-2.384186E-07</X>
                     <Y>-1</Y>
                     <Z>-1.192093E-07</Z>
                 </Vector3>
-                <Vector3 key="end-rotation">
-                    <X>-9.099637E-20</X>
+                <Vector3 key="start-rotation">
+                    <X>-6.830188E-06</X>
                     <Y>180</Y>
-                    <Z>-4.85314E-20</Z>
+                    <Z>-4.071109E-13</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>4.489235E-20</X>
+                    <Y>180</Y>
+                    <Z>1.962307E-27</Z>
                 </Vector3>
             </Data>
         </Block>
@@ -274,15 +296,15 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
-                <Vector3 key="start-rotation">
-                    <X>6.830188E-06</X>
-                    <Y>-3.415094E-06</Y>
-                    <Z>4.071109E-13</Z>
-                </Vector3>
                 <Vector3 key="end-position">
                     <X>-2.384186E-07</X>
                     <Y>-1</Y>
                     <Z>1.192093E-07</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>6.830188E-06</X>
+                    <Y>-3.415094E-06</Y>
+                    <Z>4.071109E-13</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>0</X>
@@ -303,15 +325,15 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
+                <Vector3 key="end-position">
+                    <X>-2.384186E-07</X>
+                    <Y>1</Y>
+                    <Z>-8.526511E-14</Z>
+                </Vector3>
                 <Vector3 key="start-rotation">
                     <X>0</X>
                     <Y>2.049057E-05</Y>
                     <Z>0</Z>
-                </Vector3>
-                <Vector3 key="end-position">
-                    <X>-2.384186E-07</X>
-                    <Y>1</Y>
-                    <Z>-8.526512E-14</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>6.830188E-06</X>
@@ -327,10 +349,10 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">1</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">True</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="17" guid="380890db-39b0-4a54-9fdb-e33757c12ebc">
@@ -340,10 +362,10 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">1</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">False</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="13" guid="8423e8c8-7c16-4dba-a974-146550f01bc7">
@@ -356,6 +378,9 @@
                 <StringArray key="bmt-left">LeftArrow</StringArray>
                 <StringArray key="bmt-right">RightArrow</StringArray>
                 <Single key="bmt-rotation-speed">1</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="flipped">False</Boolean>
             </Data>
         </Block>
@@ -369,7 +394,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="51cde4b8-0716-4d63-9223-846e6913b92c">
@@ -382,7 +409,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="ecb1dab2-f990-4a37-a621-9cb5f08e6412">
@@ -395,7 +424,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="8b94097c-bc49-415f-9dc9-57eb5305e007">
@@ -408,7 +439,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="e7851296-1a25-4ecd-a2ae-37a9d70f9c4e">
@@ -421,7 +454,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="10d72423-6696-4f7c-813f-6dfb287ab431">
@@ -434,7 +469,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="0aeb689a-4499-47c9-9a58-4176a8fcb559">
@@ -447,7 +484,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="075dbb1a-c158-444a-a992-96ec5bc8582c">
@@ -460,7 +499,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="18" guid="15eaab98-25d8-406e-8ded-4ad4ffdc2cef">
@@ -473,7 +514,9 @@
                 <StringArray key="bmt-extend">H</StringArray>
                 <Boolean key="bmt-toggle">False</Boolean>
                 <Single key="bmt-speed">1</Single>
+                <Single key="bmt-push-power">1</Single>
                 <Boolean key="preextended">False</Boolean>
+                <Boolean key="stronger">False</Boolean>
             </Data>
         </Block>
         <Block id="51" guid="95cc3d01-a803-4b9f-99c9-6e2f22561bc8">
@@ -503,15 +546,15 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
+                <Single key="bmt-speed">1</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="bmt-automatic">False</Boolean>
                 <Boolean key="bmt-toggle-mode">False</Boolean>
                 <Boolean key="bmt-auto-brake">True</Boolean>
                 <StringArray key="bmt-forward">UpArrow</StringArray>
                 <StringArray key="bmt-backward">DownArrow</StringArray>
-                <Single key="bmt-speed">1</Single>
-                <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">False</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="39" guid="7e75e883-3071-48d5-92fc-e0f2483f84c7">
@@ -521,15 +564,15 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
+                <Single key="bmt-speed">1</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="bmt-automatic">False</Boolean>
                 <Boolean key="bmt-toggle-mode">False</Boolean>
                 <Boolean key="bmt-auto-brake">True</Boolean>
                 <StringArray key="bmt-forward">UpArrow</StringArray>
                 <StringArray key="bmt-backward">DownArrow</StringArray>
-                <Single key="bmt-speed">1</Single>
-                <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">True</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="7" guid="2f18fb77-d585-4295-8701-d1f12aa590ab">
@@ -544,15 +587,15 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
-                <Vector3 key="start-rotation">
-                    <X>2.049057E-05</X>
-                    <Y>0</Y>
-                    <Z>0</Z>
-                </Vector3>
                 <Vector3 key="end-position">
                     <X>0</X>
                     <Y>1</Y>
                     <Z>1.192093E-07</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>2.049057E-05</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>3.073584E-05</X>
@@ -573,15 +616,15 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
-                <Vector3 key="start-rotation">
-                    <X>3.415094E-05</X>
-                    <Y>2.049057E-05</Y>
-                    <Z>7.328E-12</Z>
-                </Vector3>
                 <Vector3 key="end-position">
                     <X>-2.384186E-07</X>
                     <Y>0.9999998</Y>
                     <Z>-1.192092E-07</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>3.415094E-05</X>
+                    <Y>2.049057E-05</Y>
+                    <Z>7.328E-12</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>4.781132E-05</X>
@@ -602,15 +645,15 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
-                <Vector3 key="start-rotation">
-                    <X>4.781132E-05</X>
-                    <Y>-3.415089E-06</Y>
-                    <Z>3.155113E-12</Z>
-                </Vector3>
                 <Vector3 key="end-position">
                     <X>-2.384187E-07</X>
                     <Y>-0.9999998</Y>
                     <Z>3.576276E-07</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>4.781132E-05</X>
+                    <Y>-3.415089E-06</Y>
+                    <Z>3.155113E-12</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>3.415094E-05</X>
@@ -631,15 +674,15 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
-                <Vector3 key="start-rotation">
-                    <X>-3.415094E-05</X>
-                    <Y>180</Y>
-                    <Z>7.328E-12</Z>
-                </Vector3>
                 <Vector3 key="end-position">
                     <X>2.384185E-07</X>
                     <Y>1</Y>
-                    <Z>1.192093E-07</Z>
+                    <Z>1.192091E-07</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>-3.415094E-05</X>
+                    <Y>180</Y>
+                    <Z>7.328003E-12</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>-4.781132E-05</X>
@@ -660,20 +703,20 @@
                     <Y>0</Y>
                     <Z>0</Z>
                 </Vector3>
-                <Vector3 key="start-rotation">
-                    <X>-3.415094E-05</X>
-                    <Y>180</Y>
-                    <Z>-7.328E-12</Z>
-                </Vector3>
                 <Vector3 key="end-position">
                     <X>-2.384185E-07</X>
                     <Y>1</Y>
-                    <Z>1.192093E-07</Z>
+                    <Z>1.192091E-07</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>-3.415094E-05</X>
+                    <Y>180</Y>
+                    <Z>-7.328001E-12</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>-4.781132E-05</X>
                     <Y>180</Y>
-                    <Z>3.155113E-12</Z>
+                    <Z>3.155112E-12</Z>
                 </Vector3>
             </Data>
         </Block>
@@ -684,10 +727,10 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">1</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">False</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="17" guid="194e8e72-1fdc-4628-82d5-4446263c73e8">
@@ -697,10 +740,10 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">1</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">True</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="17" guid="e89b8b9c-88d9-4d9e-94f2-f7b21676ac4d">
@@ -710,10 +753,10 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">1</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">False</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="17" guid="1a7e3ce7-9c2b-42e6-b2c8-6a8146d1032f">
@@ -723,10 +766,10 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">1</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">False</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="17" guid="daa28c0d-44f9-4e84-9a35-78d21907137e">
@@ -736,10 +779,10 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">1</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">False</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
         <Block id="17" guid="d424fff1-972f-4bbe-a2ad-5772b1d54e43">
@@ -749,10 +792,10 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">1</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
                 <Boolean key="flipped">False</Boolean>
-                <Boolean key="bmt-uselimits">False</Boolean>
             </Data>
         </Block>
     </Blocks>
